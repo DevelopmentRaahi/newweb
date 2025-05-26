@@ -1,0 +1,69 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f7f7f7;
+}
+
+.logo-icon {
+  color: #36a2d5;
+  font-size: 2rem;
+  font-weight: bold;
+  border: 2px solid #36a2d5;
+  border-radius: 5px;
+  padding: 2px 6px;
+  font-family: monospace;
+}
+
+.text-pink {
+  color: #36a2d5;
+}
+
+.bg-pink {
+  background-color: #36a2d5;
+}
+
+.hero-section .container {
+  max-width: 800px;
+}
+
+@media (max-width: 576px) {
+  .navbar-nav {
+    text-align: center;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* Footer Section */
+
+.footer a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.footer-title {
+  font-size: 1.1rem;
+  border-top: 1px solid #ffffff33;
+  padding-top: 10px;
+  margin-bottom: 10px;
+}
+
+.copyright-bottom-home-one {
+	border-top:1px solid #555;
+}
+
