@@ -1,6 +1,7 @@
 body {
   font-family: 'Segoe UI', sans-serif;
   background-color: #f7f7f7;
+  
 }
 
 .logo-icon {
@@ -31,18 +32,363 @@ body {
   }
 }
 
+ /* second section  */
+
+.one-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 50px 0;
+  /* gap: 20px; */
+  background-color: #f6f6f6;
+}
+
+.box {
+  position: relative;
+  width: 600px;
+  height: 400px;
+  overflow: hidden;
+  /* border-radius: 0 0 50px 50px; */
+  border-radius: 0 0 0 0;
+}
+
+.box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  
+}
+
+.text-box {
+  position: absolute;
+  bottom: 0;
+  left: -10px;
+  padding: 20px;
+  border-radius: 6px;
+  color: white;
+  width: 200px;
+}
+
+.text-box-two{
+  position: absolute;
+  bottom: 0;
+  right: -10px;
+  padding: 20px;
+  border-radius: 6px;
+  color: white;
+  width: 200px;
+}
+
+.blue-box {
+  background-color: #36a2d5;
+}
+
+.teal-box {
+  background-color: #003f3c;
+}
+
+.text-box h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  line-height: 1.4;
+}
+
+.text-box-two h3{
+  font-size: 18px;
+  margin-bottom: 10px;
+  line-height: 1.4;
+}
+
+
+.text-box button {
+  background-color: white;
+  color: black;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 20px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.text-box-two button{
+  background-color: white;
+  color: black;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 20px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+
+.text-box button:hover {
+  background-color: #ddd;
+}
+
+.text-box-two button:hover {
+  background-color: #ddd;
+}
+
+
+/* third section */
+
+
+.section-r {
+  padding: 60px 0;
+  background-color: #f6f6f6;
+}
+
+.content-wrapper-r {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1200px;
+  margin: auto;
+  /* gap: 40px; */
+}
+
+.image-container-r {
+  flex: 1;
+  border-radius: 180px 0 0 180px;
+  overflow: hidden;
+}
+
+.image-container-r img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.text-content-r {
+  flex: 1;
+  padding-right: 10px;
+}
+
+.heading-r {
+   display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 30px;
+}
+
+.line1-r {
+
+   background-color: #00464b;
+  color: white;
+  font-size: 32px;
+  font-weight: bold;
+  padding: 10px 25px;
+  display: inline-block;
+  margin-left: -100px;
+  
+}
+
+.line2-r {
+
+  background-color: #36a2d5;
+  color: white;
+  font-size: 32px;
+  font-weight: bold;
+  padding: 10px 25px;
+  display: inline-block;
+  margin-top: -1px;
+  margin-left: -20px;
+}
+
+
+.line3-r {
+
+  background-color: #36a2d5;
+  color: white;
+  font-size: 32px;
+  font-weight: bold;
+  padding: 10px 25px;
+  display: inline-block;
+  margin-top: -1px;
+  margin-left: 190px;
+}
+
+.para-r {
+  font-size: 17px;
+  color: #003f3c;
+  margin-left: 40px;
+  margin-bottom: 20px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.btn-r {
+  padding: 10px 25px;
+  border: 2px solid #36a2d5;
+  background-color: transparent;
+  color: #36a2d5;
+  border-radius: 25px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  
+}
+
+.btn-r:hover {
+  background-color: #36a2d5;
+  color: #fff;
+}
 
 
 
+/* fourth */
+
+.features-section-f {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  max-width: 1200px;     /* Set width of content */
+  margin: 60px auto;      /* Center it */
+  padding: 0 20px;        /* Small padding on sides for safety */
+}
+
+.feature-box-f {
+  flex: 1;
+  border-right: 1px solid #003f3c;
+  padding-right: 30px;
+}
+
+.feature-box-f:last-child {
+  border-right: none;
+}
+
+.feature-heading-f {
+  font-size: 20px;
+  font-weight: 700;
+  color: #003f3c;
+  margin-bottom: 20px;
+}
+
+.feature-text-f {
+  color: #003f3c;
+  line-height: 1.6;
+  margin-bottom: 25px;
+}
+
+.feature-button-f {
+  display: inline-block;
+  padding: 10px 25px;
+  border: 2px solid #36a2d5;
+  color: #36a2d5;;
+  border-radius: 25px;
+  text-decoration: none;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.feature-button-f:hover {
+  background-color: #36a2d5;
+  color: white;
+}
 
 
+/* fifth section  */
 
+.industry-container-l {
+  max-width: 1200px;
+  margin: 80px auto;
+  padding: 40px 20px;
+  text-align: center;
+}
 
+.industry-header-l {
+  margin-bottom: 30px;
+}
 
+.industry-title-l {
+  display: inline-block;
+  background-color: #003f3c;
+  color: white;
+  padding: 8px 25px;
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 4px;
+}
 
+.industry-video-l {
+  margin: 30px auto;
+  max-width: 100%;
+}
 
+.industry-description-l {
+  max-width: 700px;
+  margin: 30px auto;
+  font-size: 14px;
+  color: #003f3c;
+  line-height: 1.6;
+}
+.industry-icons-section-l {
+  padding: 60px 20px;
+  background-color: #fff;
+}
 
+.industry-icons-l {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
 
+.industry-icon-item-l {
+  width: 180px;
+  text-align: center;
+  padding: 30px 15px;
+  border-radius: 15px;
+  transition: all 0.3s ease;
+}
+
+.industry-icon-item-l img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 15px;
+  transition: all 0.3s ease;
+}
+
+.industry-icon-item-l p {
+  font-size: 16px;
+  font-weight: 600;
+  color: #003f3c;
+  line-height: 1.4;
+  transition: color 0.3s ease;
+}
+
+/* Hover effect */
+.industry-icon-item-l:hover {
+  background: #fff;
+  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.07);
+}
+
+.industry-icon-item-l:hover p {
+  color: #36a2d5;
+}
+
+.industry-icon-item-l:hover img {
+  filter: brightness(0) saturate(100%) invert(26%) sepia(100%) saturate(742%) hue-rotate(305deg) brightness(95%) contrast(97%);
+}
+
+/* Active item styling */
+.industry-icon-item-l.active-l {
+  background: #fff;
+  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.07);
+}
+
+.industry-icon-item-l.active-l p {
+  color: #36a2d5;
+  text-decoration: underline;
+}
+
+.industry-icon-item-l.active-l img {
+  filter: brightness(0) saturate(100%) invert(26%) sepia(100%) saturate(742%) hue-rotate(305deg) brightness(95%) contrast(97%);
+}
 
 
  /* Footer Section */
