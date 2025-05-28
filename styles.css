@@ -1,6 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Reddit+Sans:ital,wght@0,200..900;1,200..900&display=swap');
+
+:root{
+  --font-primary: 'JetBrains Mono', monospace;
+	--font-secondary: 'Reddit Sans', sans-serif;
+}
 body {
-  font-family: 'Segoe UI', sans-serif;
+  font-family: var(--font-primary), 'Segoe UI', sans-serif;
   background-color: #f7f7f7;
+  overflow-x: hidden;
   
 }
 
@@ -174,19 +181,37 @@ body {
 }
 
 .line1-r {
-
    background-color: #00464b;
   color: white;
   font-size: 32px;
   font-weight: bold;
   padding: 10px 25px;
   display: inline-block;
-  margin-left: -100px;
-  
+  margin-left: -100px;  
+  position: relative;
+}
+.hero_content{
+  position: relative;
+}
+.hero-section .first_line::before {
+  content: "";
+  position: absolute;
+  display: block;
+  top: 0;
+  right: 0;
+  width: 1500px;
+  height: 2px;
+  background-color: #0c5760;
+  z-index: -1;
+}
+.hero_container p{
+  width: 60%;
+  font-size: 1.1rem;
+  margin-left: 120px; 
+  font-family: var(--font-secondary);
 }
 
 .line2-r {
-
   background-color: #36a2d5;
   color: white;
   font-size: 32px;
@@ -199,7 +224,6 @@ body {
 
 
 .line3-r {
-
   background-color: #36a2d5;
   color: white;
   font-size: 32px;
@@ -208,6 +232,23 @@ body {
   display: inline-block;
   margin-top: -1px;
   margin-left: 190px;
+  position: relative;
+}
+.hero_content .second_line::after {
+    content: "";  
+    position: absolute;
+    display: block;
+    width: 700px;
+    height: 200px;
+    /* background: url('./assests/img/main-banner-right-line.png') center center no-repeat; */
+    /* background-size: 100% 100%; */
+    background-color: transparent;
+    border-radius: 0 0 0 50px;
+    border: 2px solid #36a2d5;
+    border-top: none;
+    border-right: none;
+    bottom: -132px;
+    right: -700px;    
 }
 
 .para-r {
