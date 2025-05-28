@@ -334,7 +334,7 @@ body {
 
 .industry-container-l {
   max-width: 1200px;
-  margin: 300px;
+  margin: 0 auto;
   padding: 40px 20px;
   text-align: center;
 }
@@ -372,8 +372,8 @@ body {
 
 .industry-icons-l {
   display: flex;
-  flex-wrap: wrap;
-  gap: 40px;
+    flex-wrap: wrap; 
+  column-gap: 20px;
   justify-content: center;
   max-width: 1200px;
   margin: 0 auto;
@@ -441,7 +441,7 @@ body {
    padding: 10px 10px 40px; 
   background-color: #003f42;
  position: relative; 
- margin-top: 100px;
+ margin-top: 300px;
 }
 
 .heading-m {
@@ -568,10 +568,11 @@ body {
 }
 
 .trusted-logos-w img {
-  max-height: 50px;
-  max-width: 120px;
-  opacity: 0.7;
-  transition: opacity 0.3s ease;
+  max-height: 100px;
+  max-width: 170px;
+  opacity: 0.8;
+  border-radius: 15px;
+ transition: opacity 0.3s ease;
 }
 
 .trusted-logos-w img:hover {
