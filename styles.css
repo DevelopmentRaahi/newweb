@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Reddit+Sans:ital,wght@0,200..900;1,200..900&display=swap');
 
-:root{
+:root{  
   /* --font-primary: 'JetBrains Mono', monospace; */
-	--font-secondary: 'Reddit Sans', sans-serif;
+  --font-secondary: 'Reddit Sans', sans-serif;
 }
 body {
-  font-family: var(--font-primary), 'Segoe UI', sans-serif;
+  font-family: var(--font-primary),var(--font-secondary), 'Segoe UI', sans-serif;
   background-color: #f7f7f7;
   overflow-x: hidden;
   
@@ -103,23 +103,22 @@ body {
 }
 
 .blue-box {
-  background-color: #36a2d5;
+  background-color: #36a2d5; 
 }
 
 .box .second_content::after{
     content: "";  
-    position: absolute; 
-    /* position: relative; */
-     display: block; 
-    width: 700px;
-    height: 200px;
+    position: absolute;     
+    display: block; 
+    width: 1180px;
+    height: 150px;
     background-color: transparent;
-    border-radius: 0 0 0 50px;
-    border: 2px solid #36a2d5;
+    border-radius: 0 0 0 40px;
+    border: 3px solid #003f3c;
     border-top: none;
     border-right: none;
-     bottom: -132px;
-    right: -530px;   
+    left: 90px;
+    bottom: -150px;
     
 }
 
@@ -369,22 +368,27 @@ body {
   color: white;
 }
 
-
+.industry-title-l{
+  display: inline-block;
+  z-index: 3;  
+}
 /* fifth section  */
+.industry-header-l {
+  position: relative;
+}
 
 .industry-header-l .industry_content_l::after{
   content: "";
- position: absolute;
-  height: 100px;
+  position: absolute;
+  height: 1105px;
   width: 588px;
-  border-radius: 0 0 50px 0;
-  border: 3px solid #36a2d5;
-  right: 50px;
-  border-top: none;
-  border-left: none;
-  
-
- 
+  border-radius: 0 50px 50px 0;
+  border: 3px solid #003f3c; 
+  /* /* border-top: none; */
+  border-left: none; 
+  bottom: 8px;
+  z-index: 2;
+  right: -100px;
 }
 
 .industry-header-l .industry_content_l::before{
