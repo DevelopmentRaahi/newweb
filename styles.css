@@ -1,14 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Reddit+Sans:ital,wght@0,200..900;1,200..900&display=swap');
 
-:root{  
+:root {
   /* --font-primary: 'JetBrains Mono', monospace; */
   --font-secondary: 'Reddit Sans', sans-serif;
 }
+
 body {
-  font-family: var(--font-primary),var(--font-secondary), 'Segoe UI', sans-serif;
+  font-family: var(--font-primary), var(--font-secondary), 'Segoe UI', sans-serif;
   background-color: #f7f7f7;
   overflow-x: hidden;
-  
+
 }
 
 .logo-icon {
@@ -39,7 +40,7 @@ body {
   }
 }
 
- /* second section  */
+/* second section  */
 
 .one-wrapper {
   display: flex;
@@ -59,18 +60,19 @@ body {
   border-radius: 0 0 0 0;
 }
 
-.box .imgone{
+.box .imgone {
   width: 100%;
   height: 100%;
   object-fit: cover;
   border-radius: 100px 0 0 0;
 }
+
 .box img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  
-  
+
+
 }
 
 .text-box {
@@ -83,16 +85,17 @@ body {
   width: 200px;
 }
 
-.box .text-box{
+.box .text-box {
   left: -35px;
   bottom: -35px;
 }
 
-.box .text-box-two{
+.box .text-box-two {
   right: -35px;
   bottom: -35px;
 }
-.text-box-two{
+
+.text-box-two {
   position: absolute;
   bottom: 0;
   right: -10px;
@@ -103,23 +106,23 @@ body {
 }
 
 .blue-box {
-  background-color: #36a2d5; 
+  background-color: #36a2d5;
 }
 
-.box .second_content::after{
-    content: "";  
-    position: absolute;     
-    display: block; 
-    width: 1180px;
-    height: 150px;
-    background-color: transparent;
-    border-radius: 0 0 0 40px;
-    border: 3px solid #003f3c;
-    border-top: none;
-    border-right: none;
-    left: 90px;
-    bottom: -150px;
-    
+.box .second_content::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 1180px;
+  height: 150px;
+  background-color: transparent;
+  border-radius: 0 0 0 40px;
+  border: 3px solid #003f3c;
+  border-top: none;
+  border-right: none;
+  left: 90px;
+  bottom: -150px;
+
 }
 
 
@@ -134,7 +137,7 @@ body {
   line-height: 1.4;
 }
 
-.text-box-two h3{
+.text-box-two h3 {
   font-size: 18px;
   margin-bottom: 10px;
   line-height: 1.4;
@@ -152,7 +155,7 @@ body {
   transition: background-color 0.3s ease;
 }
 
-.text-box-two button{
+.text-box-two button {
   background-color: white;
   color: black;
   padding: 8px 16px;
@@ -189,22 +192,22 @@ body {
   max-width: 1200px;
   margin: auto;
   /* gap: 40px; */
-  
+
 }
 
 .image-container-r {
   flex: 1;
   border-radius: 180px 0 0 180px;
-   /* overflow: hidden;  */
-     overflow: hidden;
- 
+  /* overflow: hidden;  */
+  overflow: hidden;
+
 }
 
 .image-container-r img {
   width: 100%;
   height: auto;
 
-  
+
 }
 
 .text-content-r {
@@ -213,25 +216,27 @@ body {
 }
 
 .heading-r {
-   display: flex;
+  display: flex;
   flex-direction: column;
   align-items: flex-start;
   margin-bottom: 30px;
 }
 
 .line1-r {
-   background-color: #00464b;
+  background-color: #00464b;
   color: white;
   font-size: 32px;
   font-weight: bold;
   padding: 10px 25px;
   display: inline-block;
-  margin-left: -100px;  
+  margin-left: -100px;
   position: relative;
 }
-.hero_content{
+
+.hero_content {
   position: relative;
 }
+
 .hero-section .first_line::before {
   content: "";
   position: absolute;
@@ -243,10 +248,11 @@ body {
   background-color: #0c5760;
   z-index: -1;
 }
-.hero_container p{
+
+.hero_container p {
   width: 60%;
   font-size: 1.1rem;
-  margin-left: 120px; 
+  margin-left: 120px;
   font-family: var(--font-secondary);
 }
 
@@ -273,21 +279,22 @@ body {
   margin-left: 190px;
   position: relative;
 }
+
 .hero_content .second_line::after {
-    content: "";  
-    position: absolute;
-    display: block;
-    width: 700px;
-    height: 200px;
-    /* background: url('./assests/img/main-banner-right-line.png') center center no-repeat; */
-    /* background-size: 100% 100%; */
-    background-color: transparent;
-    border-radius: 0 0 0 50px;
-    border: 2px solid #36a2d5;
-    border-top: none;
-    border-right: none;
-    bottom: -132px;
-    right: -700px;    
+  content: "";
+  position: absolute;
+  display: block;
+  width: 700px;
+  height: 200px;
+  /* background: url('./assests/img/main-banner-right-line.png') center center no-repeat; */
+  /* background-size: 100% 100%; */
+  background-color: transparent;
+  border-radius: 0 0 0 50px;
+  border: 2px solid #36a2d5;
+  border-top: none;
+  border-right: none;
+  bottom: -132px;
+  right: -700px;
 }
 
 .para-r {
@@ -308,7 +315,7 @@ body {
   font-size: 16px;
   cursor: pointer;
   transition: 0.3s ease;
-  
+
 }
 
 .btn-r:hover {
@@ -324,9 +331,9 @@ body {
   display: flex;
   justify-content: space-between;
   gap: 40px;
-  max-width: 1200px;     
-  margin: 60px auto;     
-  padding: 0 20px;        
+  max-width: 1200px;
+  margin: 60px auto;
+  padding: 0 20px;
 }
 
 .feature-box-f {
@@ -356,7 +363,8 @@ body {
   display: inline-block;
   padding: 10px 25px;
   border: 2px solid #36a2d5;
-  color: #36a2d5;;
+  color: #36a2d5;
+  ;
   border-radius: 25px;
   text-decoration: none;
   font-size: 16px;
@@ -368,43 +376,45 @@ body {
   color: white;
 }
 
-.industry-title-l{
+.industry-title-l {
   display: inline-block;
-  z-index: 3;  
+  z-index: 3;
 }
+
 /* fifth section  */
 .industry-header-l {
   position: relative;
 }
 
-.industry-header-l .industry_content_l::after{
+.industry-header-l .industry_content_l::after {
   content: "";
   position: absolute;
   height: 1105px;
   width: 588px;
   border-radius: 0 50px 50px 0;
-  border: 3px solid #003f3c; 
+  border: 3px solid #003f3c;
   /* /* border-top: none; */
-  border-left: none; 
+  border-left: none;
   bottom: 8px;
   z-index: 2;
   right: -100px;
 }
 
-.industry-header-l .industry_content_l::before{
-  content: "";  
-    position: absolute; 
-     height: 100px;
-      width: 588px;
-      background-color: transparent;
-      border-radius: 50px 0 0 0;
-      border: 3px solid #003f3c;
-     left: 50px;
-     border-right: none;
-     border-bottom: none;
+.industry-header-l .industry_content_l::before {
+  content: "";
+  position: absolute;
+  height: 995px;
+  width:500px;
+  background-color: transparent;
+  border-radius: 50px 0 0 50px;
+  border: 3px solid #003f3c;
+  left:-10px;
+  border-right: none;
+  /* border-bottom: none; */
 
 
 }
+
 .industry-container-l {
   max-width: 1200px;
   margin: 0 auto;
@@ -438,6 +448,7 @@ body {
   color: #003f3c;
   line-height: 1.6;
 }
+
 .industry-icons-section-l {
   padding: 60px 20px;
   background-color: #fff;
@@ -445,7 +456,7 @@ body {
 
 .industry-icons-l {
   display: flex;
-    flex-wrap: wrap; 
+  flex-wrap: wrap;
   column-gap: 20px;
   justify-content: center;
   max-width: 1200px;
@@ -511,35 +522,35 @@ body {
 
 .section-m {
   text-align: center;
-   padding: 10px 10px 40px; 
+  padding: 10px 10px 40px;
   background-color: #003f42;
- position: relative; 
- margin-top: 300px;
+  position: relative;
+  margin-top: 300px;
 }
 
 .heading-m {
-   display: inline-block;  
+  display: inline-block;
   background-color: #00bde3;
   color: white;
   font-size: 28px;
   font-weight: bold;
-  padding: 10px 20px; 
+  padding: 10px 20px;
   border-radius: 4px;
-  margin-bottom: 20px; 
+  margin-bottom: 20px;
 
   position: relative;
-  top: -300px;           
-  z-index: 2;  
-  
-   
+  top: -300px;
+  z-index: 2;
+
+
 }
 
 .subheading-m {
   color: rgb(5, 5, 5);
   margin-bottom: 60px;
   position: relative;
-  top: -280px;           
-  z-index: 2; 
+  top: -280px;
+  z-index: 2;
 }
 
 .cards-m {
@@ -556,7 +567,7 @@ body {
   width: 260px;
   border-radius: 100px 0 0 0;
   overflow: hidden;
-  box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
 }
 
@@ -645,7 +656,7 @@ body {
   max-width: 170px;
   opacity: 0.8;
   border-radius: 15px;
- transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
 }
 
 .trusted-logos-w img:hover {
@@ -653,7 +664,7 @@ body {
 }
 
 
- /* Footer Section */
+/* Footer Section */
 
 .footer a {
   color: white;
@@ -672,5 +683,5 @@ body {
 }
 
 .copyright-bottom-home-one {
-	border-top:1px solid #555;
+  border-top: 1px solid #555;
 }
