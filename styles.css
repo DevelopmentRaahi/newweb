@@ -117,10 +117,10 @@ body {
   height: 150px;
   background-color: transparent;
   border-radius: 0 0 0 40px;
-  border: 3px solid #003f3c;
+  border: 3px solid #00bde3;
   border-top: none;
   border-right: none;
-  left: 90px;
+  left: 60px;
   bottom: -150px;
 
 }
@@ -290,7 +290,7 @@ body {
   /* background-size: 100% 100%; */
   background-color: transparent;
   border-radius: 0 0 0 50px;
-  border: 2px solid #36a2d5;
+  border: 3px solid #36a2d5;
   border-top: none;
   border-right: none;
   bottom: -132px;
@@ -321,6 +321,7 @@ body {
 .btn-r:hover {
   background-color: #36a2d5;
   color: #fff;
+  
 }
 
 
@@ -364,7 +365,7 @@ body {
   padding: 10px 25px;
   border: 2px solid #36a2d5;
   color: #36a2d5;
-  ;
+  
   border-radius: 25px;
   text-decoration: none;
   font-size: 16px;
@@ -392,25 +393,26 @@ body {
   height: 1105px;
   width: 588px;
   border-radius: 0 50px 50px 0;
-  border: 3px solid #003f3c;
+  border: 3px solid #36a2d5;
   /* /* border-top: none; */
   border-left: none;
   bottom: 8px;
   z-index: 2;
-  right: -100px;
+  right: -127px;
 }
 
 .industry-header-l .industry_content_l::before {
   content: "";
   position: absolute;
-  height: 995px;
-  width:500px;
+  height: 972px;  
+  width:700px;
   background-color: transparent;
   border-radius: 50px 0 0 50px;
   border: 3px solid #003f3c;
-  left:-10px;
+  left:-40px;
   border-right: none;
   /* border-bottom: none; */
+  top:3px;
 
 
 }
@@ -518,6 +520,23 @@ body {
 
 
 /* cards section */
+
+.section-m .card-content::after{
+  content: "";
+  position: absolute;
+  display: block;
+  width: 550px;
+  height: 230px;
+  background-color: transparent;
+  border-radius: 0 50px 0 0;
+  border: 3px solid #00bde3;
+  border-left: none;
+  border-bottom: none;
+  left: 210px;
+  top: 60px;
+  
+  
+}
 
 
 .section-m {
